@@ -1,6 +1,119 @@
 <!DOCTYPE html>
  <html>
  <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ body, html {
+ margin:0;
+ padding: 0;
+ 
+ }
+ .dropbtn {
+ background: #fff000;
+ color: black;
+ padding: 25px;
+ font-size: 20px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+ position: relative;
+ right: 470px;
+ }
+ 
+ .dropbtn:hover, .dropbtn:focus {
+ background-color: ;
+ }
+ 
+ .dropdown {
+ position: relative;
+ display: inline-block;
+ }
+ 
+ .dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #6160b6;
+ min-width: 1000px;
+ overflow: auto;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ }
+ 
+ .dropdown-content a {
+ color: #fff000;
+ padding: 12px 16px;
+ text-decoration: none;
+ font-size: 50px;
+ display: block;
+ border: 1px solid black;
+ }
+ 
+ .navbar{
+ width: 1001px;
+ background-image: linear-gradient(#28313b,rgb(39,39,39),#28313b);
+ border-radius: 5px;
+ }
+ 
+ h8{ 
+ font-family: "Luckiest Guy";
+ color: yellow;
+ font-size: 50px;
+ font-weight: 400; 
+ position: relative;
+ text-align: left;
+ left: 110px;                            
+ text-shadow: 0 2px orange , 0 2px red ;
+ margin:0; 
+ }
+ 
+ 
+ .dropdown a:hover {background-color: #ddd;}
+ 
+ .show {display: block;}
+ </style>
+ </head>
+ <body>
+ 
+ 
+ <div class="dropdown">
+ <div class="navbar">
+ <h8>FIGHTER&#9876;&#65039;MONKEYS</h8>
+ <button onclick="myFunction()" class="dropbtn"><font style="color:black;font-size:50px">&#9776</font>
+ </button>
+ <div id="myDropdown" class="dropdown-content">
+ <a href="#home">Home</a>
+ <a href="#about">About</a>
+ <a href="#nfts">Nfts</a>
+ </div>
+ </div>
+ </div>
+ 
+ <script>
+ /* When the user clicks on the button, 
+ toggle between hiding and showing the dropdown content */
+ function myFunction() {
+ document.getElementById("myDropdown").classList.toggle("show");
+ }
+ 
+ // Close the dropdown if the user clicks outside of it
+ window.onclick = function(event) {
+ if (!event.target.matches('.dropbtn')) {
+ var dropdowns = document.getElementsByClassName("dropdown-content");
+ var i;
+ for (i = 0; i < dropdowns.length; i++) {
+ var openDropdown = dropdowns[i];
+ if (openDropdown.classList.contains('show')) {
+ openDropdown.classList.remove('show');
+ }
+ }
+ }
+ }
+ </script>
+ 
+ </body>
+ </html>
+ 
+ <head>
  <link rel="shortcut icon" href="https://lh3.googleusercontent.com/aofDnUKaEKjqiXwesYMWFBFv3lPsTzGQJ170QA40JQ07GJ5JGGIHU0PvRHVdb1ZnKsrXGhvfaUMeMK6Ik8nPN7RVBjaNpcl7PwrdsH4=w600">
  </head>
  <article class="wrapper">
