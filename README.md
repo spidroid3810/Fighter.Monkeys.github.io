@@ -1,3 +1,1 @@
-
-#Fighter.Monkeys
-GitHub.io
+Fighter Monkeys Nft website
