@@ -20,7 +20,7 @@
  
  .wrapper {
  animation: scroll 70s linear infinite;
- background: url("https://i.ibb.co/rFnp9yT/Merged-Images-1.png");
+ background: url("bg image/bg-image.png");
  color: #eee;
  background-size: cover;
  height: 500px;
