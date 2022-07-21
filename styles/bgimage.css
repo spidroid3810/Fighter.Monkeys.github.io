@@ -20,7 +20,7 @@
  
  .wrapper {
  animation: scroll 70s linear infinite;
- background: url("bg image/bg-image.png");
+ background: url("bg-image.png");
  color: #eee;
  background-size: cover;
  height: 500px;
