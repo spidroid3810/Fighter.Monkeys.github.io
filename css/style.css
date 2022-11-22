@@ -422,6 +422,18 @@ padding-top:5px;
   opacity: .5;
 }
 
+footer{
+position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #001923; 
+  color: #fff000;
+  text-align: center;
+ height: 80px;
+ padding: 20px;
+}
+
 
 
 @media (min-width: 500px) {
