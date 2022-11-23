@@ -203,6 +203,8 @@ overflow: hidden;
 margin-top:20px;
  border-radius: 20px;
  z-index:-1;
+ box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+ 
 }
 
 .slide{
@@ -236,6 +238,8 @@ border-radius:10px;
  text-align:center;
  border-radius:10px;
  margin: 2px;
+ box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+ 
  }
  
 
@@ -278,6 +282,8 @@ margin-right:auto;
 padding: 20px;
 border-radius:10px;
 letter-spacing:1px;
+box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+
 }
 
 .banner{
@@ -332,6 +338,8 @@ letter-spacing:1px;
 margin-left:auto;
 margin-right:auto;
 margin-top:10px;
+box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+
 }
 
 
@@ -429,6 +437,8 @@ border-radius: 50%;
 cursor: pointer;
 opacity: .5;
 color: #fff;
+box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+
 }
 
 .nav #li.active{
@@ -447,6 +457,8 @@ cursor: pointer;
 width: 100px;
 font-size: 20px;
 padding-top:5px;
+box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+
 }
 
 .next.disable,
@@ -464,7 +476,7 @@ position: absolute;
   color: #fff000;
   text-align: center;
  height: 80px;
- padding: 20px;
+ padding: 25px;
 }
 
 
