@@ -203,7 +203,7 @@ width: 100%;
 }
 
 .slide{
-  animation: 0.4s slide;
+  animation: 0.6s slide;
 }
 @keyframes slide {
   from {
@@ -461,6 +461,9 @@ position: absolute;
 }
 
 
+
+
+
 @media (min-width: 500px) {
 .card-con{
 display:grid;
@@ -470,7 +473,7 @@ display:grid;
 }
 
 ul #li{
-margin: 70px;
+margin: 80px;
 
 }
 
