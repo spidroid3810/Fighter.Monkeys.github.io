@@ -187,15 +187,22 @@ input[type="checkbox"]{
 
  
  .gif1{
- margin-top:20px;
- border-radius: 40px;
+ border-radius:20px;
  content: "";
  display:block;
  height: 300px;
  width: 300px;
- margin-left:auto;
-margin-right:auto; 
-background: #001923;
+}
+
+#gallery{
+height: 300px;
+width: 300px;
+margin-left:auto;
+margin-right:auto;
+overflow: hidden;
+margin-top:20px;
+ border-radius: 20px;
+ z-index:-1;
 }
 
 .slide{
